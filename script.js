@@ -162,4 +162,22 @@ $(document).ready(function () {
         $("#hum4").text("Hum:" + " " + day4hum + "%");
         $("#hum5").text("Hum:" + " " + day5hum + "%");
 
+        $("#icon1").html(
+            `<img src="http://openweathermap.org/img/wn/${icon1}@2x.png">`
+          );
+          $("#icon2").html(
+            `<img src="http://openweathermap.org/img/wn/${icon2}@2x.png">`
+          );
+          $("#icon3").html(
+            `<img src="http://openweathermap.org/img/wn/${icon3}@2x.png">`
+          );
+          $("#icon4").html(
+            `<img src="http://openweathermap.org/img/wn/${icon4}@2x.png">`
+          );
+          $("#icon5").html(
+            `<img src="http://openweathermap.org/img/wn/${icon5}@2x.png">`
+          );
+        });
+      }
+    }
   
