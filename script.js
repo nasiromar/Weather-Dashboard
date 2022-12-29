@@ -181,3 +181,19 @@ $(document).ready(function () {
       }
     }
   
+    //function to render recently searched cities to page
+  function listCities() {
+    $("#cityList").text("");
+    cities.forEach((city) => {
+      $("#cityList").prepend("<tr><td>" + city + "</td></tr>");
+    });
+  }
+
+  listCities();
+//event handler for recently searched cities in table
+  $(document).on("click", "td", (e) => {
+    e.preventDefault();
+    let listedCity = $(e.target).text();
+    city = listedCity;
+    search();
+  });
