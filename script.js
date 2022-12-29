@@ -197,3 +197,12 @@ $(document).ready(function () {
     city = listedCity;
     search();
   });
+
+  //event handler for clear button
+  $("#clr-btn").click(() => {
+    localStorage.removeItem("cities");
+    loadRecentCities();
+    listCities();
+  });
+});
+
