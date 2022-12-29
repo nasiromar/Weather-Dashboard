@@ -4,8 +4,7 @@
 ## Description
 The Application is basically a five day weather day forecast program    with predictions of what the next five day will look like.
 
-Deployed link: ['https://github.com/nasiromar/Weather-Dashboard']
-               [https://nasiromar.github.io/Weather-Dashboard/]
+Deployed link:  [https://nasiromar.github.io/Weather-Dashboard/]
                
 ## Table of Contents
 * [Installation](#installation)
